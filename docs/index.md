@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Hoobs Live Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Go to the livestream: [stream.hoobs.live](https://stream.hoobs.live/).
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Youtube Live Stream
+* [Chat Commands](../youtube/commands)
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Minecraft Server
+* [Server Anti-Lag Rules](../rules/lag)
+* [How to Join the Server](../help/connecting)
