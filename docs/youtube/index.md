@@ -1,5 +1,9 @@
-# YouTube Chat Commands
+# YouTube Live Stream
 
+## BlexBot
+Blex Bot is a cutting edge YouTube bot developed internally for Hoobs Live.
+
+## BlexBot Chat Commands
 * `!loot` - Display your amount of Hoob Loot.
 * `!free` - Collect 1,000 Hoob Loot every 3 minutes.
 * `!bacon` - Collect 20,000 Hoob Loot every 10 minutes (limited to 1 user).

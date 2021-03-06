@@ -1,4 +1,6 @@
 site_name: Hoobs Live
 nav:
     - Home: index.md
+    - YouTube: youtube/index.md
+    - Help: help/connecting.md
     - Rules: rules/index.md
