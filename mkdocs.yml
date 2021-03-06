@@ -5,3 +5,8 @@ nav:
     - Help: help/connecting.md
     - Rules: rules/index.md
 site_description: Hoobs Live Field Manual
+theme:
+  name: material
+  palette:
+    primary: red
+    accent: red
