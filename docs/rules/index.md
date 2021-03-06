@@ -1,3 +1,3 @@
 ### Rules
 
-* [Server Anti-Lag Rules](/rules/lag.md)
+* [Server Anti-Lag Rules](/rules/lag)
