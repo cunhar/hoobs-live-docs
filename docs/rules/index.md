@@ -1,4 +1,4 @@
-### Rules
+# Rules
 
 * [Minecraft Rules](rules.md)
 * [Discord Rules](discord.md)
