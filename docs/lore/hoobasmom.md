@@ -1,2 +1,3 @@
-#Hooba's Mom
+# Hooba's Mom
+
 So, it turns out the Hooba's Mom was not too happy about us summoning and killing the Hooba countless times.  Hooba's Mom has returned to her Nether palace and will scream at anyone she believes was involved in the aforementioned crimes.  To get her attention all you have to do is drop a DRAGON HEAD into her stove and she will quickly appear bearing Netherite Blocks!  If you are able to defeat Hooba's Mom, there is a secrete temple under her home with additional gifts.
