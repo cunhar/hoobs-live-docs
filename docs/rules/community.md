@@ -6,3 +6,7 @@
 * 🛑 No advertising other sites/discord servers/YouTube channel.
 * 🛑 No spamming or flooding the chat with messages.
 * 🛑 Do not cause a nuisance in the community 
+
+### Pardons
+
+* [Pardon Application](https://pardon.hoobs.live/)

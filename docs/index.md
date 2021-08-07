@@ -7,11 +7,14 @@ Go to the livestream: [stream.hoobs.live](https://stream.hoobs.live/).
 
 ## Youtube Live Stream
 * [Chat Commands](youtube#commands) 
- * [Community Guidelines](rules/community)
+* [Community Guidelines](rules/community)
 
 ## Minecraft Server
 * [How to Join the Server](help/connecting)
 * [Server Anti-Lag Rules](rules/lag)
+* [Pardon Application](https://pardon.hoobs.live/)
+
+## Hoobs SMP Lore
 * [Hoobasaurus Family Lore](lore)
 * [Rendered World Map](https://map.hoobs.live/)
 

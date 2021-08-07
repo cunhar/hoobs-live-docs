@@ -7,15 +7,15 @@ Blex Bot is a cutting edge YouTube bot developed internally for Hoobs Live.
 * `!random` - Sets the camera to spectate a random player.
 * `!s [player]` - Sets the camera to spectate PlayerName.
 * `!s +[location]` - Sets the camera to spectate a location.
-* `!miners` - List all of the players currently in the server.
+* `!players` - List all of the players currently in the server.
 * `!more` - Continue watch current location/player.
 * `!back` - Return to the preview location/player.
 
 ## Free Items
-* `!diamond [player]` - Gives 1 Diamond to PlayerName.
-* `!sheep [player]` - Gives 1 Diamond to PlayerName.
+* `!diamond [player]` - Gives 1 Diamond to PlayerName every 10 minutes.
+* `!sheep [player]` - Gives 1 Sheep to PlayerName every 3 seconds.
 
-## Loot
+## Hoob Loot
 * `!loot` - Display your amount of Hoob Loot.
 * `!free` - Collect 10,000 Hoob Loot every 60 seconds.
 * `!bacon` - Collect 50,000 Hoob Loot every 10 minutes (limited to 1 user).
