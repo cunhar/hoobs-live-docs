@@ -7,12 +7,12 @@ nav:
     - Help: help/connecting.md
 site_description: Hoobs Live Field Manual
 theme:
-  favicon: img/favicon.ico
-  features:
-    - header.autohide
   name: material
   logo: img/logo.png
+  favicon: img/favicon.ico
   palette:
     scheme: default
     primary: red
     accent: red
+  features:
+    - header.autohide
