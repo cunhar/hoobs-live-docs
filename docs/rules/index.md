@@ -1,8 +1,9 @@
-### Rules
-
+### Community
 * [Community Guidelines](community)
-* [Server Anti-Lag Rules](lag)
+
+### Minecraft Server Rules
+* [Lag](lag)
+* [Cheating](cheating)
 
 ### Pardons
-
 * [Pardon Application](https://pardon.hoobs.live/)
