@@ -18,7 +18,11 @@ Go to the livestream: [stream.hoobs.live](https://stream.hoobs.live/).
 * [Hoobasaurus Family Lore](lore)
 * [Rendered World Map](https://map.hoobs.live/)
 
-## Lifetime Server Achievements:
+## Server Achievements
 * [Hall of Fame](https://hoobs.live/minecraft/#hof)​​
 * [Awards](https://hoobs.live/minecraft/#awards​​)
 * [Players](https://hoobs.live/minecraft/#players​​)
+
+## Discord
+* [Rules](rules/community) 
+* [Roles](discord#roles) 

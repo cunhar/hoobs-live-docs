@@ -7,9 +7,13 @@ nav:
     - Help: help/connecting.md
 site_description: Hoobs Live Field Manual
 theme:
+  features:
+    - header.autohide
   name: material
+  logo: img/logo.png
   palette:
-    primary: black
+    scheme: default
+    primary: red
     accent: red
 extra:
   analytics:
