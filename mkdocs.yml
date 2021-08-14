@@ -15,7 +15,3 @@ theme:
     scheme: default
     primary: red
     accent: red
-extra:
-  analytics:
-    provider: google
-    property: UA-111512157-3
