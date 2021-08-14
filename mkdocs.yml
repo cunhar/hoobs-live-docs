@@ -7,6 +7,7 @@ nav:
     - Help: help/connecting.md
 site_description: Hoobs Live Field Manual
 theme:
+  favicon: img/favicon.ico
   features:
     - header.autohide
   name: material
