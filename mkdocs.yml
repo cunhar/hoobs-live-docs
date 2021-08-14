@@ -9,5 +9,9 @@ site_description: Hoobs Live Field Manual
 theme:
   name: material
   palette:
-    primary: red
+    primary: black
     accent: red
+extra:
+  analytics:
+    provider: google
+    property: UA-111512157-3
