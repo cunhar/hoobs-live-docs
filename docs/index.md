@@ -3,7 +3,7 @@
 Go to the livestream: [stream.hoobs.live](https://stream.hoobs.live/).
 
 ## Mission Statement
- > Create the world largest vanilla survival community through inclusivity
+ > Create the world's largest vanilla survival community through inclusivity
 
 ## Youtube Live Stream
 * [Chat Commands](youtube#commands) 
