@@ -4,10 +4,12 @@ nav:
     - YouTube: youtube/index.md
     - Discord: discord/index.md
     - Rules: rules/index.md 
+    - Privacy: privacy.md
     - Help: help/connecting.md
 site_description: Hoobs Live Field Manual
 theme:
   name: material
+  font: false
   logo: img/logo.png
   favicon: img/favicon.ico
   custom_dir: overrides
@@ -17,3 +19,4 @@ theme:
     accent: red
   features:
     - header.autohide
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
