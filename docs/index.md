@@ -46,7 +46,6 @@ Blex Bot is a cutting edge YouTube bot developed internally for Hoobs Live.
 - !raffle — Enter the active raffle
 - !rob — Rob another viewer
 - !bacon — Collect 50,000 Hoob Loot every 10 minutes (limited)
-- !flip [amount] — Gamble loot (50% win)
 - !give [user] [amount] — Give Hoob Loot to other users
 
 ## 📦 Shop Items Available
