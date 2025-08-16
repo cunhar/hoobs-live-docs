@@ -1,6 +1,6 @@
 # Hoobs Live Server Lore
 
-* [Hoobasaurus](hoobasaurus)
-* [Hooba's Mom](hoobasmom)
-* [Hooba's Dad](hoobasdad)
-* [Hoobibo](hoobibo)
+* [Hoobasaurus](hoobasaurus.md)
+* [Hooba's Mom](hoobasmom.md)
+* [Hooba's Dad](hoobasdad.md)
+* [Hoobibo](hoobibo.md)
