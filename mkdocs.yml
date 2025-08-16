@@ -1,11 +1,10 @@
 site_name: Hoobs Live
 nav:
     - Home: index.md
-    - YouTube: youtube/index.md
+    - Server: server/connecting.md
+    - Rules: rules/index.md
     - Discord: discord/index.md
-    - Rules: rules/index.md 
     - Privacy: privacy.md
-    - Help: help/connecting.md
 site_description: Hoobs Live Field Manual
 theme:
   name: material
