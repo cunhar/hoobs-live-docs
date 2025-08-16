@@ -68,3 +68,14 @@ Blex Bot is a cutting edge YouTube bot developed internally for Hoobs Live.
 4. Keep content family-friendly.
 5. Be a positive part of our community.
 6. No cheating/hacks.
+
+
+## 🔗 Helpful Links
+
+- [Statistics](https://stats.hoobs.live)
+- [Hall of Fame](https://stats.hoobs.live/#hof)
+- [Survival Web Map](https://map.hoobs.live)
+- [Join our Discord](https://discord.gg/fJeHE8D)
+- [Pardon Request](https://pardon.hoobs.live)
+- [Bans List](https://bans.hoobs.live)
+- [Server Events](https://stats.hoobs.live/#events)
