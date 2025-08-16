@@ -5,10 +5,10 @@ nav:
       - Connecting: server/connecting.md
       - Places: server/places.md
     - Lore:
-      - Hoobasaurus: hoobasaurus.md
-      - Hooba's Mom: hoobasmom.md
-      - Hooba's Dad: hoobasdad.md
-      - Hoobibo: hoobibo.md
+      - Hoobasaurus: lore/hoobasaurus.md
+      - Hooba's Mom: lore/hoobasmom.md
+      - Hooba's Dad: lore/hoobasdad.md
+      - Hoobibo: lore/hoobibo.md
 
     - Rules: rules/index.md
     - Discord: discord/index.md
