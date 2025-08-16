@@ -20,4 +20,4 @@ theme:
   features:
     - header.autohide
 extra_css:
-  - /stylesheets/extra.css
+  - stylesheets/extra.css
