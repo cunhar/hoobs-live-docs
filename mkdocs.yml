@@ -1,8 +1,15 @@
 site_name: Hoobs Live
 nav:
     - Home: index.md
-    - Server: server/connecting.md
-    - Lore: lore/index.md
+    - Server:
+      - Connecting: server/connecting.md
+      - Places: server/places.md
+    - Lore:
+      - Hoobasaurus: hoobasaurus.md
+      - Hooba's Mom: hoobasmom.md
+      - Hooba's Dad: hoobasdad.md
+      - Hoobibo: hoobibo.md
+
     - Rules: rules/index.md
     - Discord: discord/index.md
     - Privacy: privacy.md

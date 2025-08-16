@@ -24,6 +24,7 @@ Blex Bot is a cutting edge YouTube bot developed internally for Hoobs Live.
 - !s [player] — Sets the camera to spectate PlayerName
 - !s +[location] — Sets the camera to spectate a location
 - !players — List all players currently in the server
+- !places [player] [page] — List all available locations to spectate
 - !more — Continue watching current location/player
 - !back — Return to the previous location/player
 - !say — Use TTS
