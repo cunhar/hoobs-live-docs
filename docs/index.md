@@ -1,4 +1,4 @@
-# Hoobs Live Community Handbook
+# Hoobs Live Handbook
 
 Join our 24/7 vanilla survival public server for non-stop fun—no Minecraft needed! Watch as the camera auto-spectates players every 3 minutes, or take control with chat `!commands` to explore live. Don’t just watch, jump in and be part of the action!
 
@@ -35,7 +35,7 @@ Blex Bot is a cutting edge YouTube bot developed internally for Hoobs Live.
 - !battle — Start a battle with your NPC
 - !pvp — Engage in PvP with your NPC
 
-## 💻 Essential Minecraft & Item Commands
+## 💻 Minecraft & Item Commands
 - !shop — View available items for purchase (shop changes every 10 minutes)
 - !refresh — Refresh the shop
 - !diamond [PlayerName] — Give a diamond to [PlayerName] (every 10 min)
