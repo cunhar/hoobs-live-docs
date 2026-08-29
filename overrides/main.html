@@ -2,4 +2,15 @@
 
 {% block extrahead %}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3769436149950666" crossorigin="anonymous"></script>
+    <script>
+        (function() {
+            try {
+                if (window.self !== window.top) {
+                    document.documentElement.classList.add('is-iframe');
+                }
+            } catch (e) {
+                document.documentElement.classList.add('is-iframe');
+            }
+        })();
+    </script>
 {% endblock %}

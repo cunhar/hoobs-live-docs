@@ -1,6 +1,510 @@
-/* Custom Theme Colors */
-:root > * {
-  --md-primary-fg-color:        #FE0000;
+/* ==========================================================================
+   Hoobs Live Documentation — Theme Stylesheet (Matching hoobs.live)
+   Brand Red: #FE0000 | Deep Black: #000000 | Surface: #0D0D0D | Border: #222222
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* ==========================================================================
+   CSS Custom Properties & Brand Color Tokens
+   ========================================================================== */
+
+:root,
+[data-md-color-scheme="slate"],
+[data-md-color-scheme="default"] {
+  --font-sans: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  /* Brand Colors */
+  --color-brand-red: #FE0000;
+  --color-brand-red-dim: rgba(254, 0, 0, 0.12);
+  --color-brand-red-glow: rgba(254, 0, 0, 0.4);
+
+  /* Material Slate Primary & Accent */
+  --md-primary-fg-color: #FE0000;
   --md-primary-fg-color--light: #ECB7B7;
-  --md-primary-fg-color--dark:  #90030C;
+  --md-primary-fg-color--dark: #90030C;
+  --md-primary-bg-color: #FFFFFF;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  --md-accent-fg-color: #FE0000;
+  --md-accent-fg-color--transparent: rgba(254, 0, 0, 0.12);
+  --md-accent-bg-color: #000000;
+
+  /* Backgrounds & Surfaces */
+  --md-default-bg-color: #000000;
+  --md-default-bg-color--light: #0D0D0D;
+  --md-default-bg-color--lighter: #141414;
+  --md-default-bg-color--lightest: #1E1E1E;
+
+  /* Text & Foreground */
+  --md-default-fg-color: #FFFFFF;
+  --md-default-fg-color--light: #E2E8F0;
+  --md-default-fg-color--lighter: #94A3B8;
+  --md-default-fg-color--lightest: #64748B;
+
+  --md-typeset-color: #E2E8F0;
+  --md-typeset-a-color: #FE0000;
+
+  /* Code Syntax & Blocks */
+  --md-code-bg-color: #050505;
+  --md-code-fg-color: #F8FAFC;
+  --md-code-hl-color: rgba(254, 0, 0, 0.18);
+  --md-code-hl-number-color: #FE0000;
+  --md-code-hl-special-color: #FF4D4D;
+  --md-code-hl-function-color: #FF7070;
+  --md-code-hl-constant-color: #FFB3B3;
+  --md-code-hl-string-color: #4ADE80;
+  --md-code-hl-punctuation-color: #94A3B8;
+  --md-code-hl-operator-color: #38BDF8;
+
+  /* Shadows */
+  --md-shadow-z1: 0 4px 20px rgba(0, 0, 0, 0.6);
+  --md-shadow-z2: 0 8px 30px rgba(0, 0, 0, 0.8);
+  --md-shadow-z3: 0 12px 40px rgba(0, 0, 0, 0.95);
+}
+
+/* ==========================================================================
+   Global Body & Deep Black Backdrop
+   ========================================================================== */
+
+body,
+.md-container {
+  background-color: #000000 !important;
+  background-image: radial-gradient(circle at 50% 15%, rgba(0, 0, 0, 0.86) 0%, rgba(0, 0, 0, 0.98) 100%), url('../img/background.png') !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  color: #E2E8F0 !important;
+  font-family: var(--font-sans) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.md-main {
+  background: transparent !important;
+}
+
+/* Logo Styling & Clean Hover */
+.md-header__button.md-logo {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  transition: opacity 0.2s ease;
+}
+
+.md-header__button.md-logo:hover,
+.md-header__button.md-logo:focus {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  opacity: 0.85 !important;
+}
+
+.md-logo img,
+.md-logo svg {
+  border-radius: 50% !important;
+  transition: opacity 0.2s ease;
+}
+
+/* ==========================================================================
+   Desktop Sidebars (High Contrast & Maximum Legibility)
+   ========================================================================== */
+
+@media (min-width: 76.25em) {
+  .md-sidebar--primary .md-sidebar__scrollwrap,
+  .md-sidebar--secondary .md-sidebar__scrollwrap {
+    background: rgba(10, 10, 10, 0.9) !important;
+    border: 1px solid #222222 !important;
+    border-radius: 12px !important;
+    padding: 14px 12px !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.7) !important;
+    margin-top: 16px !important;
+  }
+}
+
+/* Navigation Typography & Hierarchy */
+.md-nav__title {
+  color: #FFFFFF !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+}
+
+.md-nav__link {
+  color: #CBD5E1 !important;
+  font-family: var(--font-sans) !important;
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+  border-radius: 6px;
+  padding: 5px 8px !important;
+  transition: all 0.15s ease !important;
+}
+
+.md-nav__link:hover {
+  color: #FFFFFF !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Parent Section Titles / Nested Group Headers (Clean & Unhighlighted) */
+.md-nav__item--nested > .md-nav__link,
+.md-nav__item--section > .md-nav__link,
+label.md-nav__link,
+.md-nav__item--active > label.md-nav__link {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  background: transparent !important;
+  border-left: none !important;
+  padding-left: 6px !important;
+}
+
+/* Selected Leaf Item (The exact active page currently open) */
+a.md-nav__link--active,
+.md-nav__item:not(.md-nav__item--nested) > a.md-nav__link--active,
+.md-nav__item--active:not(.md-nav__item--nested) > a.md-nav__link {
+  color: #FFFFFF !important;
+  background: rgba(254, 0, 0, 0.18) !important;
+  font-weight: 700 !important;
+  border-left: 3px solid var(--color-brand-red) !important;
+  padding-left: 10px !important;
+  border-radius: 6px !important;
+}
+
+/* ==========================================================================
+   Main Content & Typography
+   ========================================================================== */
+
+.md-content {
+  background: transparent !important;
+}
+
+.md-content__inner {
+  background: rgba(13, 13, 13, 0.9);
+  border: 1px solid #222222;
+  border-radius: 14px;
+  padding: 32px 36px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .md-content__inner {
+    padding: 20px 18px !important;
+    margin-top: 8px;
+    border-radius: 10px;
+  }
+}
+
+/* Headings */
+.md-typeset h1 {
+  font-family: var(--font-sans) !important;
+  font-weight: 800 !important;
+  font-size: 28px !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.5px !important;
+  margin-bottom: 20px !important;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #222222 !important;
+}
+
+.md-typeset h1::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--color-brand-red);
+  box-shadow: 0 0 8px var(--color-brand-red);
+}
+
+.md-typeset h2 {
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 22px !important;
+  color: #FFFFFF !important;
+  margin-top: 32px !important;
+  margin-bottom: 14px !important;
+  border-bottom: 1px solid #1C1C1C !important;
+  padding-bottom: 6px;
+}
+
+.md-typeset h3 {
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: #F8FAFC !important;
+  margin-top: 24px !important;
+}
+
+.md-typeset h4 {
+  font-family: var(--font-sans) !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  color: #E2E8F0 !important;
+}
+
+.md-typeset p,
+.md-typeset li {
+  color: #CBD5E1 !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+}
+
+.md-typeset strong {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+}
+
+.md-typeset a {
+  color: var(--color-brand-red) !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.15s ease, text-shadow 0.15s ease;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 6px rgba(254, 0, 0, 0.4);
+}
+
+/* ==========================================================================
+   Code Blocks & Inline Code
+   ========================================================================== */
+
+.md-typeset code {
+  font-family: var(--font-mono) !important;
+  background: #141414 !important;
+  border: 1px solid #282828 !important;
+  color: #FFFFFF !important;
+  border-radius: 6px !important;
+  padding: 2px 7px !important;
+  font-size: 0.85em !important;
+}
+
+.md-typeset pre > code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.highlight {
+  background: #050505 !important;
+  border: 1px solid #222222 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6) !important;
+  overflow: hidden;
+  margin: 16px 0 !important;
+}
+
+.md-clipboard {
+  color: #888888 !important;
+  transition: color 0.15s ease;
+}
+
+.md-clipboard:hover {
+  color: var(--color-brand-red) !important;
+}
+
+/* ==========================================================================
+   Admonitions (Callouts & Notes)
+   ========================================================================== */
+
+.md-typeset .admonition {
+  background: #0D0D0D !important;
+  border: 1px solid #222222 !important;
+  border-left: 4px solid var(--color-brand-red) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5) !important;
+  margin: 18px 0 !important;
+}
+
+.md-typeset .admonition__title {
+  background: #121212 !important;
+  color: #FFFFFF !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  border-bottom: 1px solid #1E1E1E !important;
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: #22C55E !important;
+}
+.md-typeset .admonition.tip .admonition__title {
+  color: #86EFAC !important;
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: #F59E0B !important;
+}
+.md-typeset .admonition.warning .admonition__title {
+  color: #FCD34D !important;
+}
+
+.md-typeset .admonition.danger {
+  border-left-color: #EF4444 !important;
+}
+.md-typeset .admonition.danger .admonition__title {
+  color: #FCA5A5 !important;
+}
+
+.md-typeset .admonition.info {
+  border-left-color: #3B82F6 !important;
+}
+.md-typeset .admonition.info .admonition__title {
+  color: #93C5FD !important;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+.md-typeset table:not([class]) {
+  background: #080808 !important;
+  border: 1px solid #222222 !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5) !important;
+  display: table !important;
+  width: 100% !important;
+  margin: 20px 0 !important;
+}
+
+.md-typeset table:not([class]) th {
+  background: #141414 !important;
+  color: #FFFFFF !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid #282828 !important;
+  padding: 12px 16px !important;
+}
+
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid #1A1A1A !important;
+  padding: 10px 16px !important;
+  color: #CBD5E1 !important;
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: #121212 !important;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.md-typeset .md-button {
+  background: #141414 !important;
+  border: 1px solid #2D2D2D !important;
+  color: #FFFFFF !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  padding: 8px 18px !important;
+  border-radius: 9999px !important;
+  transition: all 0.15s ease !important;
+}
+
+.md-typeset .md-button:hover {
+  background: #1C1C1C !important;
+  border-color: var(--color-brand-red) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 0 12px rgba(254, 0, 0, 0.3) !important;
+}
+
+.md-typeset .md-button--primary {
+  background: var(--color-brand-red) !important;
+  border-color: var(--color-brand-red) !important;
+}
+
+.md-typeset .md-button--primary:hover {
+  background: #D40000 !important;
+  border-color: #D40000 !important;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.md-footer {
+  background: #080808 !important;
+  border-top: 1px solid #1E1E1E !important;
+  color: #888888 !important;
+}
+
+.md-footer-meta {
+  background: transparent !important;
+}
+
+.md-footer-meta__inner {
+  font-size: 13px !important;
+  color: #888888 !important;
+}
+
+.md-footer a {
+  color: #AAAAAA !important;
+}
+
+.md-footer a:hover {
+  color: var(--color-brand-red) !important;
+}
+
+/* ==========================================================================
+   Custom Scrollbars
+   ========================================================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-red);
+}
+
+/* Back to Top Button */
+.md-top {
+  background: #141414 !important;
+  border: 1px solid #282828 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7) !important;
+}
+
+.md-top:hover {
+  background: var(--color-brand-red) !important;
+  border-color: var(--color-brand-red) !important;
+}
+
+/* ==========================================================================
+   Iframe Embedding Mode (e.g. inside modal on hoobs.live)
+   ========================================================================== */
+
+html.is-iframe,
+.is-iframe body,
+.is-iframe .md-container {
+  background-image: none !important;
+  background-color: #0D0D0D !important;
+}
+
+.is-iframe .md-content__inner {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 16px 20px !important;
+  margin-top: 0 !important;
 }
