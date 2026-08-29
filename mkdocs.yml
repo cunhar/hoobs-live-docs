@@ -1,20 +1,5 @@
 site_name: Hoobs Live
-nav:
-    - Livestream: index.md
-    - Server:
-      - Connecting: server/connecting.md
-      - Places: server/places.md
-      - Claims: server/claims.md
-      - Clans: server/clans.md
-    - Lore:
-      - Hoobasaurus: lore/hoobasaurus.md
-      - Hooba's Mom: lore/hoobasmom.md
-      - Hooba's Dad: lore/hoobasdad.md
-      - Hoobibo: lore/hoobibo.md
-    - Rules: rules/index.md
-    - Discord: discord/index.md
-    - Privacy: privacy.md
-site_description: Hoobs Live Field Manual
+site_description: Official Hoobs Live & BlexBot Customer Help Manual
 theme:
   name: material
   font: false
@@ -27,5 +12,33 @@ theme:
     accent: red
   features:
     - header.autohide
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+    - Handbook & Commands: index.md
+    - Livestream & Economy:
+      - Viewer Ranks & Milestones: stream/ranks.md
+      - Economy & Bonuses: stream/economy.md
+      - Code Wheel & Buffs: stream/wheel-buffs.md
+    - Minecraft Server:
+      - Connecting: server/connecting.md
+      - Claims & Land: server/claims.md
+      - Custom 3D Skins: server/skins.md
+      - Places & Spectating: server/places.md
+      - Clans: server/clans.md
+    - Lore & Bosses:
+      - Hoobasaurus: lore/hoobasaurus.md
+      - Hooba's Mom: lore/hoobasmom.md
+      - Hooba's Dad: lore/hoobasdad.md
+      - Hoobibo: lore/hoobibo.md
+    - Rules & Support:
+      - Rules & Mods: rules/index.md
+      - Discord Community: discord/index.md
+      - Companion Web App: app.md
+    - Privacy: privacy.md
+
 extra_css:
   - stylesheets/extra.css
